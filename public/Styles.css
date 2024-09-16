@@ -1,0 +1,139 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(115, 151, 152);
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    position: static;
+    color: #000000;
+    padding: 1rem;
+    
+}
+
+
+.Navberleft .logo{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+
+}
+ 
+
+.mid .navlink{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+
+.mid .navlink li{
+margin-right: 1rem;
+color: #000000;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: center;
+
+}
+
+ .container .item1 {
+    width: 160px;
+    border: 2.4px solid #000000; /* width, style, color */
+    padding: 0px;
+    margin: 30px; 
+ } 
+/* .item1{
+    height:100%;
+    width: 100%;
+} */
+
+.item2{
+    width: 160px;
+    border: 2.4px solid #000000; /* width, style, color */
+    padding: 0px;
+    margin: 30px;
+}
+
+.item3
+{
+    width: 160px;
+    border: 2.4px solid #000000; /* width, style, color */
+    padding: 0px;
+    margin: 30px;
+
+}
+
+.item4{
+    width: 160px;
+    border: 2.4px solid #000000; /* width, style, color */
+    padding: 0px;
+    margin: 30px;
+
+}
+
+img{
+    position: relative;
+    left: 0px;
+    bottom: 0%;
+    height: 100%;
+    width: 100%;
+margin-bottom: 0%;
+    
+}
+
+
+/* .container2{
+    width: 160px;
+    border: 2.4px solid #000000; /* width, style, color */
+    /* padding: 20px;
+    margin: 30px; 
+
+} */ 
+
+.container2  .box1{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: center;
+}
+
+.item11{
+    width: 123px;
+    border: 2.4px solid #000000; /* width, style, color */
+    padding: 20px;
+    margin: 30px; 
+}
+
+.item22{
+
+    width: 123px;
+    border: 2.4px solid #000000; /* width, style, color */
+    padding: 20px;
+    margin: 30px; 
+}
+
+
+.item33{
+    width: 123px;
+    border: 2.4px solid #000000; /* width, style, color */
+    padding: 20px;
+    margin: 30px; 
+}
+
+.item44{
+    width: 123px;
+    border: 2.4px solid #000000; /* width, style, color */
+    padding: 20px;
+    margin: 30px; 
+    height: 300px;
+}
