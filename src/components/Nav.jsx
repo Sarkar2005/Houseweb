@@ -8,7 +8,7 @@ function Nav(params) {
         <nav className="Navbar">
             <div className="Navberleft">
            
-                <a href="/" className="logo">
+                <a href=" " className="logo">
                  <BungalowIcon/> Home
                 </a>
             </div>
