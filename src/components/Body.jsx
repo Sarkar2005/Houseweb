@@ -1,6 +1,6 @@
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-
-
+import Slider from './Slider';
+import Footer from './Footer';
 
 
 
@@ -13,7 +13,7 @@ function Body() {
       <div class="container2">
         <div class="box1">
           <div class="item11">
-            {/* <img src={} alt=" jkj"></img> */}
+         
             <marquee>
                 <h3>house1</h3>
             </marquee>
@@ -59,8 +59,9 @@ function Body() {
             
             </p>
        <br />
-       
-            <h4> price $800000</h4>
+
+       <br />
+            <h4> price $8000</h4>
            <h4><a href="https://www.google.com/maps/place/31%C2%B021'18.0%22N+75%C2%B021'39.6%22E/@31.355,75.361,15z/data=!4m4!3m3!8m2!3d31.355!4d75.361?hl=en-US&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"><LocationOnIcon style={{color:" rgb(115, 151, 152)"}}/></a></h4> 
           </div>
           <div class="item44">
@@ -69,14 +70,17 @@ function Body() {
             </marquee>
             <p>  9 Bds - 9 Ba - 1800 ft2 <br></br>
             <br />
-            Nirmal enclave Baba Deep eep Singh nagar gali no 6
+            Nirmal enclave Baba Deepeep Singh nagar gali no 6
             RCF Colony, Kapurthala, Punjab</p>
-            <h4> price $400000</h4>
+            <h4> price $4000</h4>
 
            <h4><a href="https://www.google.com/maps/place/31%C2%B018'57.6%22N+75%C2%B020'20.4%22E/@31.316,75.339,15z/data=!4m4!3m3!8m2!3d31.316!4d75.339?hl=en-US&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"><LocationOnIcon  style={{color:" rgb(115, 151, 152)"}}/></a></h4> 
           </div>
         </div>
+      
       </div>
+
+      <Footer/>
       
     </>
   );

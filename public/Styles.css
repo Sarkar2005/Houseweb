@@ -154,3 +154,28 @@ h4{
 LocationOnIcon{
     text-align: center;
 }
+
+
+.img{
+    height: 500px;
+    width: 1300px;
+    filter: blur(4px);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(115, 151, 152);
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    position: static;
+    color: #000000;
+    padding: 1.2rem;
+}
+
+.icon{
+
+    text-align: center;
+}
